@@ -1,17 +1,25 @@
-#ts-starter
+# ts-starter
+
 Starter project for TypeScript in Visual Studio Code
 
-## Step 1
+### Clone Project
 
 ```
-npx degit richgieg/ts-starter
+npx degit richgieg/ts-starter my-project
+code my-project
 ```
 
-## Step 2
+### Install Prettier Extension for Visual Studio Code
 
-Install "Prettier - Code formatter" extension for Visual Studio Code
+[https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
-## Compile & Run
+### Install Dependencies
+
+```
+npm install
+```
+
+### Compile & Run
 
 ```
 npm start
